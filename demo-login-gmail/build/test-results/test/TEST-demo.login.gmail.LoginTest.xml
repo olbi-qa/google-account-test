@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo.login.gmail.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-07T23:05:36" hostname="LAPTOP-D17J6VN1" time="15.166">
+  <properties/>
+  <testcase name="login" classname="demo.login.gmail.LoginTest" time="15.166"/>
+  <system-out><![CDATA[Welcome, Olga Bi
+]]></system-out>
+  <system-err><![CDATA[Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+]]></system-err>
+</testsuite>
