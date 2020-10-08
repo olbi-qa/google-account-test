@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e64acde-2e48-4d3b-b46b-f241c1700197" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/demo-login-gmail/src/test/java/demo/login/gmail/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-login-gmail/src/test/java/demo/login/gmail/TestBase.java" afterDir="false" />
-    </list>
+    <list default="true" id="5e64acde-2e48-4d3b-b46b-f241c1700197" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../demo-login-gmail/.gradle/" />
     <ignored path="$PROJECT_DIR$/../demo-login-gmail/build/" />
@@ -34,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-login-gmail/src/test/java/demo/login/gmail/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="52">
               <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,7 +77,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo-login-gmail/src/test/java/demo/login/gmail/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
+            <state relative-caret-position="153">
               <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding>
                 <element signature="e#1288#1289#0" expanded="true" />
@@ -300,7 +298,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="13" width="1381" height="751" extended-state="1" />
+    <frame x="-4" y="13" width="1381" height="751" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -359,7 +357,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-login-gmail/src/test/java/demo/login/gmail/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="52">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -369,7 +367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-login-gmail/src/test/java/demo/login/gmail/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
+        <state relative-caret-position="153">
           <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding>
             <element signature="e#1288#1289#0" expanded="true" />
