@@ -22,5 +22,7 @@ public class LoginTest extends TestBase{
         goToAccountPage();
         verifyUserSignedIn();
     }
-
+//This script has lots of Thread.sleep() which is not the best practice.
+// But in this case running these tests wouldn't be recognized as
+// suspicious activity and account won't be locked.
 }
