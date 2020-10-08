@@ -3,7 +3,9 @@ package demo.login.gmail;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -15,7 +17,13 @@ public class TestBase {
 
     @BeforeMethod
     public void setUp() throws Exception {
-        driver = new FirefoxDriver();
+        String browser = BrowserType.CHROME;
+        if (browser == BrowserType.FIREFOX) {
+            driver = new FirefoxDriver();
+        }
+        else if (browser == BrowserType.CHROME) {
+            driver = new ChromeDriver();
+        }
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("https://accounts.google.com/ServiceLogin");
     }
@@ -41,9 +49,13 @@ public class TestBase {
     }
 
     protected void enterEmail(String userEmail) {
-        driver.findElement(By.id("identifierId")).click();
-        driver.findElement(By.id("identifierId")).clear();
-        driver.findElement(By.id("identifierId")).sendKeys(userEmail);
+        fillEmalPhoneField(userEmail, "identifierId");
+        }
+
+    private void fillEmalPhoneField(String userEmail, String locator) {
+        driver.findElement(By.id(locator)).click();
+        driver.findElement(By.id(locator)).clear();
+        driver.findElement(By.id(locator)).sendKeys(userEmail);
     }
 
     @AfterMethod
