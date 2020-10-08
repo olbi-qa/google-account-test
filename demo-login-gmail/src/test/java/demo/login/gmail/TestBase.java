@@ -17,7 +17,7 @@ public class TestBase {
 
     @BeforeMethod
     public void setUp() throws Exception {
-        String browser = BrowserType.CHROME;
+        String browser = BrowserType.FIREFOX;
         if (browser == BrowserType.FIREFOX) {
             driver = new FirefoxDriver();
         }
@@ -61,9 +61,7 @@ public class TestBase {
     @AfterMethod
     public void tearDown(){
         driver.quit();
-        //if (!"".equals(verificationErrorString)) {
-        //fail(verificationErrorString);
-        //String verificationErrorString = verificationErrors.toString();
+        
         }
 
     private boolean isAlertPresent() {
