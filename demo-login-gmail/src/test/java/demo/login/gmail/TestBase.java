@@ -30,8 +30,8 @@ public class TestBase {
         driver.findElement(By.cssSelector("#passwordNext")).click();
     }
 
-    protected void enterPassword(String userPassword, String cssSelector) {
-        driver.findElement(By.cssSelector(cssSelector)).click();
+    protected void enterPassword(String userPassword) {
+        driver.findElement(By.cssSelector("input[name='password']")).click();
         driver.findElement(By.cssSelector("input[name='password']")).clear();
         driver.findElement(By.cssSelector("input[name='password']")).sendKeys(userPassword);
     }

@@ -16,7 +16,7 @@ public class LoginTest extends TestBase{
         goToPasswordPage();
         Thread.sleep(2000);
 
-        enterPassword("L8tmein!", "input[name='password']");
+        enterPassword("L8tmein!");
         Thread.sleep(2000);
 
         goToAccountPage();
